@@ -12,8 +12,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.listenmoneymatters.com/wp-content/uploads/2018/05/LMM-Cover-Images-1-2.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
